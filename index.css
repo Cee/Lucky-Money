@@ -1,0 +1,89 @@
+body, p, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fbecbf;
+	/*color: #616575;*/
+	font-family: Helvetica, "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
+	font-size: 16px;
+}
+
+#mainContainer {
+	width: 320px;
+	margin: 0 auto;
+	height: 670px;
+	background: url(img/bg.png) no-repeat;
+	background-size: 320px;
+}
+
+.top {
+	height: 230px;
+}
+
+.main {
+	width: 280px;
+	margin-top: 100px;
+	/*background-color: #Cee;*/
+	height: 500px;
+	margin: 0 auto;
+}
+
+.main_top {
+	width: 216px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(img/main_top.png) no-repeat;
+	background-size: 216px;
+}
+
+.main_middle {
+	width: 216px;
+	height: 69px;
+	margin: 0 auto;
+	background: url(img/main_middle.png) no-repeat;
+	background-size: 216px;
+}
+
+.main_bottom {
+	width: 216px;
+	height: 232px;
+	margin: 0 auto;
+	background: url(img/main_bottom.png) no-repeat;
+	background-size: 216px;
+}
+
+.main_logo {
+	position: absolute;
+	width: 320px;
+	height: 43px;
+	margin: 0 auto;
+	top: 280px;
+	left: 48.5%;
+}
+
+.main_logo img {
+	height: 43px;
+	width: 43px;
+}
+
+.margin {
+	height: 20px;
+}
+
+.main_share {
+	height: 40px;
+	width: 200px;
+	margin: 0 auto;
+	background-color: #b61f2a;
+	box-shadow: 0px 4px 2px #851a20;
+}
+
+.main_share p {
+	padding-top: 7px;
+	text-align: center;
+	color: #fbecbf;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
