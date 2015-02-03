@@ -96,6 +96,37 @@ body {
 	letter-spacing: 1px;
 }
 
+table.record {
+	border-spacing: 0;
+	margin: 40px auto 0;
+}
+table.record tr:nth-child(odd) {
+	background-color: #fbe9b4;
+}
+table.record tr:nth-child(even) {
+	background-color: #f0db9b;
+}
+table.record td {
+	text-align: center;
+	color: #53420e;
+	padding: 6px;
+}
+table.record td.name {
+	width: 80px;
+}
+table.record td.msg {
+	width: 200px;
+}
+table.record td span.highlight {
+	color: #d40000;
+}
+table.record td a.more {
+	color: #eb9272;
+}
+table.record td a.more:hover {
+	color: #b05e3f;
+}
+
 
 /* footer */
 .footer a.rule {
