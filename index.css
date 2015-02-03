@@ -1,3 +1,4 @@
+/* reset */
 body, p, div, ul, li {
 	margin: 0;
 	padding: 0;
@@ -10,6 +11,7 @@ body {
 	font-size: 16px;
 }
 
+/* layout */
 #mainContainer {
 	width: 320px;
 	margin: 0 auto;
@@ -26,10 +28,16 @@ body {
 	width: 280px;
 	margin-top: 100px;
 	/*background-color: #Cee;*/
-	height: 500px;
 	margin: 0 auto;
 }
 
+.footer {
+	width: 280px;
+	margin: 40px auto 20px;
+	position: relative;
+}
+
+/* main */
 .main_top {
 	width: 216px;
 	height: 80px;
@@ -86,4 +94,32 @@ body {
 	color: #fbecbf;
 	font-size: 20px;
 	letter-spacing: 1px;
+}
+
+
+/* footer */
+.footer a.rule {
+	display:block;
+	text-align:center;
+	color: #eb9272;
+	margin-bottom: 15px;
+}
+
+.footer a.rule:hover {
+	color: #b05e3f;
+}
+
+.footer img.logo {
+	display: block;
+	margin:0 auto;
+	width: 62px;
+	height: 33px;
+}
+
+.footer img.miku {
+	width: 115px;
+	height: 163px;
+	position: absolute;
+	bottom: 2px;
+	right: -60px;
 }
