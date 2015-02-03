@@ -45,6 +45,14 @@ body {
 	background: url(img/main_top.png) no-repeat;
 	background-size: 216px;
 }
+.main_top span {
+	text-align: center;
+	font-size: 24px;
+	font-family: "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
+	display: block;
+	padding-top: 24px;
+	color: white;
+}
 
 .main_middle {
 	width: 216px;
@@ -67,7 +75,7 @@ body {
 	width: 320px;
 	height: 43px;
 	margin: 0 auto;
-	top: 280px;
+	top: 325px;
 	left: 48.5%;
 }
 
@@ -152,5 +160,5 @@ table.record td a.more:hover {
 	height: 163px;
 	position: absolute;
 	bottom: 2px;
-	right: -60px;
+	right: -10px;
 }
