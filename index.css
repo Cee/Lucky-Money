@@ -3,6 +3,12 @@ body, p, div, ul, li {
 	margin: 0;
 	padding: 0;
 }
+a {
+	color: #eb9272;
+}
+a:hover {
+	color: #b05e3f;
+}
 
 body {
 	background: #fbecbf;
@@ -80,6 +86,24 @@ body {
 	width: 43px;
 }
 
+.notice p {
+	background-color: #c43329;
+	color: #fff0bb;
+	padding: 4px 8px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+.notice img.logo {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+.notice a {
+	display:block;
+	margin: 10px auto 0;
+}
+
 .margin {
 	height: 20px;
 }
@@ -134,23 +158,16 @@ table.record td a.more:hover {
 
 /* footer */
 .footer a.rule {
-	display:block;
-	text-align:center;
-	color: #eb9272;
+	display: block;
+	text-align: center;
 	margin-bottom: 15px;
 }
-
-.footer a.rule:hover {
-	color: #b05e3f;
-}
-
 .footer img.logo {
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 	width: 62px;
 	height: 33px;
 }
-
 .footer img.miku {
 	width: 115px;
 	height: 163px;
