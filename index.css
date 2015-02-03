@@ -19,18 +19,15 @@ body {
 	background: url(img/bg.png) no-repeat;
 	background-size: 320px;
 }
-
 .top {
 	height: 230px;
 }
-
 .main {
 	width: 280px;
 	margin-top: 100px;
-	/*background-color: #Cee;*/
 	margin: 0 auto;
+	position: relative;
 }
-
 .footer {
 	width: 280px;
 	margin: 40px auto 20px;
@@ -38,17 +35,17 @@ body {
 }
 
 /* main */
-.main_top {
+.envelope_top {
 	width: 216px;
 	height: 80px;
 	margin: 0 auto;
-	background: url(img/main_top.png) no-repeat;
+	background: url(img/envelope_top.png) no-repeat;
 	background-size: 216px;
 }
-.main_top.disabled {
-	background-image: url(img/main_top2.png);
+.envelope_top.disabled {
+	background-image: url(img/envelope_top_disabled.png);
 }
-.main_top span {
+.envelope_top span {
 	text-align: center;
 	font-size: 24px;
 	font-family: "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
@@ -56,33 +53,29 @@ body {
 	padding-top: 24px;
 	color: white;
 }
-
-.main_middle {
+.envelope_middle {
 	width: 216px;
 	height: 69px;
 	margin: 0 auto;
-	background: url(img/main_middle.png) no-repeat;
+	background: url(img/envelope_middle.png) no-repeat;
 	background-size: 216px;
 }
-
-.main_bottom {
+.envelope_bottom {
 	width: 216px;
 	height: 232px;
 	margin: 0 auto;
-	background: url(img/main_bottom.png) no-repeat;
+	background: url(img/envelope_bottom.png) no-repeat;
 	background-size: 216px;
 }
-
-.main_logo {
+.envelope_logo {
 	position: absolute;
 	width: 320px;
 	height: 43px;
 	margin: 0 auto;
-	top: 325px;
-	left: 48.5%;
+	top: 90px;
+	left: 120px;
 }
-
-.main_logo img {
+.envelope_logo img {
 	height: 43px;
 	width: 43px;
 }
