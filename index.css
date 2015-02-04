@@ -60,22 +60,27 @@ body {
 }
 .envelope_bottom {
 	width: 150px;
-	height: 162px;
+	height: 180px;
 	margin: 0 auto;
 	background: url(img/envelope_bottom.png) no-repeat;
-	background-size: 150px;
+	background-size: 150px 180px;
+	text-align: center;
 }
-.envelope_logo {
-	position: absolute;
-	width: 320px;
-	height: 30px;
-	margin: 0 auto;
-	top: 60px;
-	left: 125px;
-}
-.envelope_logo img {
+.envelope_bottom img.logo {
+	display: block;
 	height: 30px;
 	width: 30px;
+	margin: 0 auto;
+	padding: 10px 0 20px;
+}
+.envelope_bottom span {
+	display: block;
+	font-size: 14px;
+	color: #eb9272;
+}
+.envelope_bottom a {
+	display: block;
+	font-size: 14px;
 }
 
 .notice p {
