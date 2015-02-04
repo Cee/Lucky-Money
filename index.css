@@ -42,48 +42,40 @@ body {
 
 /* main */
 .envelope_top {
-	width: 216px;
-	height: 80px;
+	width: 150px;
 	margin: 0 auto;
 	background: url(img/envelope_top.png) no-repeat;
-	background-size: 216px;
+	background-size: 150px;
 }
 .envelope_top.disabled {
 	background-image: url(img/envelope_top_disabled.png);
 }
 .envelope_top span {
 	text-align: center;
-	font-size: 24px;
+	font-size: 16px;
 	font-family: "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
 	display: block;
-	padding-top: 24px;
+	padding: 14px 0 6px;
 	color: white;
 }
-.envelope_middle {
-	width: 216px;
-	height: 69px;
-	margin: 0 auto;
-	background: url(img/envelope_middle.png) no-repeat;
-	background-size: 216px;
-}
 .envelope_bottom {
-	width: 216px;
-	height: 232px;
+	width: 150px;
+	height: 162px;
 	margin: 0 auto;
 	background: url(img/envelope_bottom.png) no-repeat;
-	background-size: 216px;
+	background-size: 150px;
 }
 .envelope_logo {
 	position: absolute;
 	width: 320px;
-	height: 43px;
+	height: 30px;
 	margin: 0 auto;
-	top: 90px;
-	left: 120px;
+	top: 60px;
+	left: 125px;
 }
 .envelope_logo img {
-	height: 43px;
-	width: 43px;
+	height: 30px;
+	width: 30px;
 }
 
 .notice p {
@@ -169,8 +161,8 @@ table.record td a.more:hover {
 	height: 33px;
 }
 .footer img.miku {
-	width: 88px;
-	height: 188px;
+	width: 66px;
+	height: 141px;
 	position: absolute;
 	bottom: 2px;
 	right: -10px;
